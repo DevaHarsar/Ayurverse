@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Quiz to discover your Ayurvedic Dosha">
+   <meta name="keywords" content="quiz, dosha, ayurveda, prakruti, holistic">
+   <meta name="author" content="Celeste Loi">
+    <title>AYUVERSE</title>
+    <link rel="stylesheet" href="css/diagonse-and-treat.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="images/main-logo.png">
+   
+    
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+           
+            <div class="home">
+              <div class="home-logo"></div>
+              <span><a href="index.html">Home</a></span>
+          </div>
+          <div class="Medicinal-herbs">
+              <div class="Medicinal-herbs-logo"></div>
+              <span><a href="Medicinal_herbs.php">Medicinal Herbs</a></span>
+          </div> 
+          <div class="know-your-slokas">
+              <div class="know-your-slokas-logo"></div>
+              <span><a href="know-your-slokas.html">Know Your Slokas</a></span>
+          </div>
+          <div class="diagnose-and-treat">
+              <div class="diagnose-and-treat-logo"></div>
+              <span><a href="diagnose-and-treat.html">Diagnose And Treat</a></span>
+          </div>
+          <div class="veda">
+              <div class="veda-logo"></div>
+              <span><a href="veda.html">Veda (Chat bot)</a></span>
+          </div>
+          <div class="paper-guide">
+              <div class="paper-guide-logo"></div>
+              <span><a href="paper-guide.html">Paper Guide</a></span>
+          </div>
+          
+          </div>
+          
+          
+          <span style="font-size:30px;cursor:pointer;margin-left: 10px;" onclick="openNav()">&#9776;</span>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "270px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0px";
+          }
+          </script>
+        <div class="main">
+            <div class="nav">
+                <nav>
+                    <div class="ayu-logo"></div>
+                
+                    <div class="heading_name">
+                    
+                    <a href="index.html" >AYURVERSE</a>
+                    </div>
+                </nav>
+            </div>
+            
+            <main>
+                <div class="container">
+                    
+                  <div id="question-counter">
+                     <span id="current-question">0</span> of 18
+                   </div>
+                  
+                 <div id="question-text"></div>
+                   <div class="options">
+                       
+                      <button class="btn btn-option" id="vata-option"></button>
+                      <button class="btn btn-option" id="pitta-option"></button>
+                      <button class="btn btn-option" id="kapha-option"></button>
+                   </div>
+                   <div class="controls">
+                      
+                      <button class="btn" id="btn-next">Next question</button>
+                   </div>
+                </div>
+             </main>
+    </div>
+    
+    <!-- <footer class="footer1">
+        
+        <span class="text-muted">Ayuverse©2024</span>
+      
+    </footer> -->
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/quiz.js"></script>
+</html>
+  
+  

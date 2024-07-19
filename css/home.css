@@ -1,0 +1,117 @@
+.home{
+    border-radius: 17px;
+    background-color: var(--primary-color);
+}
+
+.about-us{
+    /* box-shadow: rgba(15, 4, 4, 0.15) 0px 3px 3px 0px; */
+     /* text-align: justify;
+    background-image: url("../images/bg.png");
+   border-style:inset; */
+   margin: 10px 30px 30px 10px;
+    /* border-radius: 10px;
+  background-color: lightblue;  */
+ }
+
+.business-model{
+    text-align: justify;
+    background-color: var(--Tertiary-colour);
+    padding:35px;
+    margin: 10px 30px 30px 10px;
+    border-radius: 10px;
+
+}
+.the-team{
+     box-shadow: rgba(26, 26, 26, 0.056) 0px 3px 3px 0px;
+     text-align: justify;
+     background-color: bisque;
+     padding:35px;
+     margin: 10px 30px 30px 10px;
+     border-radius: 10px;
+    
+}
+@media only screen and (min-width: 1350px) {
+    .business-model-content{
+        display: flex;
+    }
+    .content-image{
+        background-image: url("../images/Business\ Model.png");
+        background-repeat: no-repeat;
+        width:800px;
+        height: 300px;
+        background-size: 100%;
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+.heading_name{
+    box-shadow: rgba(26, 26, 26, 0.056) 0px 3px 3px 0px;
+     text-align: center;
+    background-color:rgba(246, 248, 246, 0.098);
+    /* background-image: url("../images/bg.png"); */
+     padding:35px;
+     margin: 10px 10px 10px 10px;
+     border-radius: 10px;
+     width: 1000px;
+     font-size: larger;
+}
+
+
+
+
+
+h2{
+    font-size: 1.4rem;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(115, 104, 104, 0.966);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .container_home
+  {
+         background-color: rgba(0, 255, 30, 0.164);
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: black;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: black;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .nav {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
